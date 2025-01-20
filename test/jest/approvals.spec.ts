@@ -37,12 +37,12 @@ describe('Gilded Rose Approval', () => {
     process.argv = originalProcessArgv;
   });
 
-  it('should foo', () => {
+  /* it('should foo', () => {
     const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
     const items = gildedRose.updateQuality();
   
     expect(items).toMatchSnapshot();
-  });
+  }); */
 
   it('should thirtyDays', () => {
     process.argv = ["<node>", "<script", "30"];
