@@ -57,4 +57,26 @@ describe('Gilded Rose', () => {
 
     expect(items[0].name).toBe('Elixir of the Mongoose');
   });
+
+  it('expects the sell date to be bigger than 0', () => {
+    const gildedRose = new GildedRose([new Item('Elixir of the Mongoose', 2, 2)]);
+    const items = gildedRose.updateQuality();
+
+    expect(items[0].sellIn).toBeGreaterThan(0);
+  });
+
+  it('expects the quality to be bigger than 0 and not to be a conjured item', () => {
+    const gildedRose = new GildedRose([new Item('Elixir of the Mongoose', 2, 2)]);
+    const items = gildedRose.updateQuality();
+
+    expect(items[0].quality).toBeGreaterThan(0);
+    expect(items[0].name).not.toBe('Conjured Mana Cake');
+  });
+
+  it('expects the sell date to be smaller than 0', () => {
+    const gildedRose = new GildedRose([new Item('Elixir of the Mongoose', -2, 2)]);
+    const items = gildedRose.updateQuality();
+
+    expect(items[0].sellIn).toBeLessThan(0);
+  });
 });
