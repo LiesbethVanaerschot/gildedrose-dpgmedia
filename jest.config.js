@@ -4,6 +4,8 @@ var ts_jest_1 = require("ts-jest");
 var tsconfig_json_1 = require("./tsconfig.json");
 exports.default = {
     roots: ['<rootDir>/app', '<rootDir>/test/jest'],
+    testMatch: ['<rootDir>/test/jest/*.spec.ts'],
+    testPathIgnorePatterns: ['<rootDir>/test/jest/*.spec.js'],
     collectCoverage: true,
     coverageDirectory: 'coverage',
     coverageProvider: 'v8',
