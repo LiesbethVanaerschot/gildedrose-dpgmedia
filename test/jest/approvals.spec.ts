@@ -37,18 +37,34 @@ describe('Gilded Rose Approval', () => {
     process.argv = originalProcessArgv;
   });
 
-  /* it('should foo', () => {
+  it('should foo', () => {
     const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
+    console.log(gildedRose);
     const items = gildedRose.updateQuality();
   
     expect(items).toMatchSnapshot();
-  }); */
+  });
 
-  it('should thirtyDays', () => {
+  it('should not be Sulfuras, Hand of Ragnaros', () => {
+    const gildedRose = new GildedRose([new Item('Aged Brie', 3, 1)]);
+    const items = gildedRose.updateQuality();
+  
+    expect(items[0].name).toBe('Aged Brie');
+  });
+
+  //it should not be sulfuras
+  //it (sellIn) should be bigger then 0
+  //else
+  //it should be brie
+  //it should be passes
+  //sellIn should be between 5 and 10
+  //sellIn should be lower then 5
+
+  /* it('should thirtyDays', () => {
     process.argv = ["<node>", "<script", "30"];
     require('../golden-master-text-test.ts');
        
     expect(gameConsoleOutput).toMatchSnapshot();
-  });
+  }); */
 
 });
