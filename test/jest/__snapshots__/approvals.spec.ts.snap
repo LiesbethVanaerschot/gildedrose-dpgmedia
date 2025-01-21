@@ -1,11 +1,1001 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Gilded Rose Approval should foo 1`] = `
+exports[`Gilded Rose Approval Approvel: Day 0: day-0 1`] = `
 [
   Item {
-    "name": "foo",
+    "name": "+5 Dexterity Vest",
+    "quality": 19,
+    "sellIn": 9,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 1,
+    "sellIn": 1,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 6,
+    "sellIn": 4,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 21,
+    "sellIn": 14,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 41,
+    "sellIn": 9,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 4,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 10,
+    "sellIn": 5,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 1: day-1 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 18,
+    "sellIn": 8,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 2,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 5,
+    "sellIn": 3,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 22,
+    "sellIn": 13,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 43,
+    "sellIn": 8,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 3,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 8,
+    "sellIn": 4,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 2: day-2 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 17,
+    "sellIn": 7,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 3,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 4,
+    "sellIn": 2,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 23,
+    "sellIn": 12,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 45,
+    "sellIn": 7,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 2,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 6,
+    "sellIn": 3,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 3: day-3 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 16,
+    "sellIn": 6,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 4,
+    "sellIn": -2,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 3,
+    "sellIn": 1,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 24,
+    "sellIn": 11,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 47,
+    "sellIn": 6,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 1,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 4,
+    "sellIn": 2,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 4: day-4 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 15,
+    "sellIn": 5,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 5,
+    "sellIn": -3,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 1,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 26,
+    "sellIn": 10,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 5,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 2,
+    "sellIn": 1,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 5: day-5 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 14,
+    "sellIn": 4,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 6,
+    "sellIn": -4,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
     "quality": 0,
     "sellIn": -1,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 28,
+    "sellIn": 9,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 4,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": 0,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 6: day-6 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 13,
+    "sellIn": 3,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 7,
+    "sellIn": -5,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -2,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 30,
+    "sellIn": 8,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 3,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -2,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -1,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 7: day-7 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 12,
+    "sellIn": 2,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 8,
+    "sellIn": -6,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -3,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 32,
+    "sellIn": 7,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 2,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -3,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -2,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 8: day-8 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 11,
+    "sellIn": 1,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 9,
+    "sellIn": -7,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -4,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 34,
+    "sellIn": 6,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -4,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -3,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 9: day-9 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 9,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 10,
+    "sellIn": -8,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -5,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 37,
+    "sellIn": 5,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -5,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -4,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 10: day-10 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 7,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 11,
+    "sellIn": -9,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -6,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 40,
+    "sellIn": 4,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -6,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -5,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 11: day-11 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 5,
+    "sellIn": -2,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 12,
+    "sellIn": -10,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -7,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 43,
+    "sellIn": 3,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -2,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -7,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -6,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 12: day-12 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 3,
+    "sellIn": -3,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 13,
+    "sellIn": -11,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -8,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 46,
+    "sellIn": 2,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -3,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -8,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -7,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 13: day-13 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 1,
+    "sellIn": -4,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 14,
+    "sellIn": -12,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -9,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 49,
+    "sellIn": 1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -4,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -9,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -8,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 14: day-14 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 0,
+    "sellIn": -5,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 15,
+    "sellIn": -13,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -10,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -5,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -10,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -9,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 15: day-15 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 0,
+    "sellIn": -6,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 16,
+    "sellIn": -14,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -11,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -6,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -11,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -10,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 16: day-16 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 0,
+    "sellIn": -7,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 17,
+    "sellIn": -15,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -12,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -2,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -7,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -12,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -11,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 17: day-17 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 0,
+    "sellIn": -8,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 18,
+    "sellIn": -16,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -13,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -3,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -8,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -13,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -12,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 18: day-18 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 0,
+    "sellIn": -9,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 19,
+    "sellIn": -17,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -14,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -4,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -9,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -14,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -13,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval Approvel: Day 19: day-19 1`] = `
+[
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 0,
+    "sellIn": -10,
+  },
+  Item {
+    "name": "Aged Brie",
+    "quality": 20,
+    "sellIn": -18,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 0,
+    "sellIn": -15,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -5,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -10,
+  },
+  Item {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": -15,
+  },
+  Item {
+    "name": "Conjured Mana Cake",
+    "quality": 0,
+    "sellIn": -14,
   },
 ]
 `;

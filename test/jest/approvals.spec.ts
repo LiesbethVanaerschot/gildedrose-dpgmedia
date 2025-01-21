@@ -16,6 +16,8 @@ describe('Gilded Rose Approval', () => {
   let originalConsoleLog: (message: any) => void;
   let originalProcessArgv: string[]
 
+
+
   function gameConsoleLog(msg: string) {
     if (msg) {
       gameConsoleOutput += msg;
@@ -37,20 +39,39 @@ describe('Gilded Rose Approval', () => {
     process.argv = originalProcessArgv;
   });
 
-  it('should foo', () => {
-    const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
-    console.log(gildedRose);
-    const items = gildedRose.updateQuality();
-  
-    expect(items).toMatchSnapshot();
-  });
 
-  it('should not be Sulfuras, Hand of Ragnaros', () => {
-    const gildedRose = new GildedRose([new Item('Aged Brie', 3, 1)]);
-    const items = gildedRose.updateQuality();
+  const items = [
+    new Item("+5 Dexterity Vest", 10, 20),
+    new Item("Aged Brie", 2, 0),
+    new Item("Elixir of the Mongoose", 5, 7),
+    new Item("Sulfuras, Hand of Ragnaros", 0, 80),
+    new Item("Sulfuras, Hand of Ragnaros", -1, 80),
+    new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20),
+    new Item("Backstage passes to a TAFKAL80ETC concert", 10, 39),
+    new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
   
-    expect(items[0].name).toBe('Aged Brie');
-  });
+    // This Conjured item does not work properly yet
+    new Item("Conjured Mana Cake", 6, 12),
+  ];
+  
+  const gildedRose = new GildedRose(items);
+  const days = [...Array(20).keys()];
+
+  test.each(days)('Approvel: Day %d', (d) => {
+    gildedRose.updateQuality();
+    expect(items).toMatchSnapshot(`day-${d}`);
+  })
+
+  /* for (const d in days) {
+
+    // run an approval test for this day
+    it(`Approval: Day ${d}`, () => {
+      expect(items).toMatchSnapshot(`day-${d}`);
+    });
+  
+    // and update the quality
+    
+  } */
 
   //it should not be sulfuras
   //it (sellIn) should be bigger then 0

@@ -29,7 +29,7 @@ export class GildedRose {
           //standard + 1 in quality
           this.items[i].quality = this.items[i].quality < 50 ? this.items[i].quality + 1 : 50;
           //but backstage passes have two extra levels till the event has passed
-          if (this.items[i].name === 'Backstage passes to a TAFKAL80ETC concert') {
+          if (this.items[i].name === 'Backstage passes to a TAFKAL80ETC concert' && this.items[i].quality < 50) {
             if (this.items[i].sellIn > 5 && this.items[i].sellIn < 11) {
               this.items[i].quality = this.items[i].quality + 1;
             } else if (this.items[i].sellIn < 6) {
@@ -41,9 +41,17 @@ export class GildedRose {
         } else {
           //Conjured cake degrade twice as fast as the rest, Quality is never negative
           if (this.items[i].sellIn > 0) {
-            this.items[i].quality = this.items[i].quality > 0 ? this.items[i].name === 'Conjured Mana Cake' ? this.items[i].quality - 2 : this.items[i].quality - 1 : 0;
+            if (this.items[i].name !== 'Conjured Mana Cake') {
+              this.items[i].quality = this.items[i].quality > 0 ? this.items[i].quality - 1 : 0;
+            } else {
+              this.items[i].quality = this.items[i].quality > 1 ? this.items[i].quality - 2 : 0;
+            }
           } else {
-            this.items[i].quality = this.items[i].quality > 0 ? this.items[i].name === 'Conjured Mana Cake' ? this.items[i].quality - 4 : this.items[i].quality - 2 : 0;
+            if (this.items[i].name !== 'Conjured Mana Cake') {
+              this.items[i].quality = this.items[i].quality > 1 ? this.items[i].quality - 2 : 0;
+            } else {
+              this.items[i].quality = this.items[i].quality > 3 ? this.items[i].quality - 4 : 0;
+            }
           }
         }
       }
