@@ -38,12 +38,12 @@ export class GildedRose {
           //standard + 1 in quality
           this.items[i].quality = this.increaseQuality(this.items[i].quality, 1);
           //but backstage passes have two extra levels till the event has passed
-          if (this.items[i].name === 'Backstage passes to a TAFKAL80ETC concert' && this.items[i].quality < 50) {
+          if (this.items[i].name === 'Backstage passes to a TAFKAL80ETC concert') {
             if (this.items[i].sellIn > 5 && this.items[i].sellIn < 11) {
               this.items[i].quality = this.increaseQuality(this.items[i].quality, 1);
-            } else if (this.items[i].sellIn > 0 && this.items[i].sellIn < 6) {
+            } else if (this.items[i].sellIn >= 0 && this.items[i].sellIn < 6) {
               this.items[i].quality = this.increaseQuality(this.items[i].quality, 2);
-            } else if (this.items[i].sellIn <= 0) {
+            } else if (this.items[i].sellIn < 0) {
               this.items[i].quality = 0;
             }
           }
