@@ -17,6 +17,11 @@ export class GildedRose {
     this.items = items;
   }
 
+  decreaseQuality(quality: number, decrement: number) {
+    Math.max(0, quality - decrement);
+  };
+    
+
   updateQuality() {
     for (let i = 0; i < this.items.length; i++) {
       //first exception Sulfuras is a stable product
