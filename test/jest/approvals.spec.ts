@@ -62,30 +62,4 @@ describe('Gilded Rose Approval', () => {
     expect(items).toMatchSnapshot(`day-${d}`);
   })
 
-  /* for (const d in days) {
-
-    // run an approval test for this day
-    it(`Approval: Day ${d}`, () => {
-      expect(items).toMatchSnapshot(`day-${d}`);
-    });
-  
-    // and update the quality
-    
-  } */
-
-  //it should not be sulfuras
-  //it (sellIn) should be bigger then 0
-  //else
-  //it should be brie
-  //it should be passes
-  //sellIn should be between 5 and 10
-  //sellIn should be lower then 5
-
-  /* it('should thirtyDays', () => {
-    process.argv = ["<node>", "<script", "30"];
-    require('../golden-master-text-test.ts');
-       
-    expect(gameConsoleOutput).toMatchSnapshot();
-  }); */
-
 });

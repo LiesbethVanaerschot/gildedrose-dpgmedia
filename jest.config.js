@@ -9,6 +9,7 @@ exports.default = {
     collectCoverage: true,
     coverageDirectory: 'coverage',
     coverageProvider: 'v8',
+    clearMocks: true,
     transform: {
         '^.+\\.tsx?$': 'ts-jest',
     },

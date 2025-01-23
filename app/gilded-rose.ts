@@ -51,18 +51,8 @@ export class GildedRose {
           //Conjured cake degrade twice as fast as the rest, Quality is never negative
           if (this.items[i].sellIn > 0) {
             this.items[i].quality = this.items[i].name !== 'Conjured Mana Cake' ? this.decreaseQuality(this.items[i].quality, 1) : this.decreaseQuality(this.items[i].quality, 2);
-            /* if (this.items[i].name !== 'Conjured Mana Cake') {
-              this.items[i].quality = this.items[i].quality > 0 ? this.items[i].quality - 1 : 0;
-            } else {
-              this.items[i].quality = this.items[i].quality > 1 ? this.items[i].quality - 2 : 0;
-            } */
           } else {
             this.items[i].quality = this.items[i].name !== 'Conjured Mana Cake' ? this.decreaseQuality(this.items[i].quality, 2) : this.decreaseQuality(this.items[i].quality, 4);
-            /* if (this.items[i].name !== 'Conjured Mana Cake') {
-              this.items[i].quality = this.items[i].quality > 1 ? this.items[i].quality - 2 : 0;
-            } else {
-              this.items[i].quality = this.items[i].quality > 3 ? this.items[i].quality - 4 : 0;
-            } */
           }
         }
       }
