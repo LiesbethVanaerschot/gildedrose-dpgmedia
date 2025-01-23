@@ -24,12 +24,6 @@ To run all tests in watch mode
 npm run test:jest:watch
 ```
 
-Mocha
-
-```sh
-npm run test:mocha
-```
-
 
 ## Run the TextTest fixture from the Command-Line
 
