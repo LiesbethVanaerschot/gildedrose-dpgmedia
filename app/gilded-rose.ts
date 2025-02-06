@@ -12,51 +12,56 @@ export class Item {
 
 export class GildedRose {
   items: Array<Item>;
+  //standard values
+  decreaseSellInVal = 1;
+  increaseQVal = 1;
+  decreaseQVal = 1;
 
   constructor(items = [] as Array<Item>) {
     this.items = items;
   }
 
-  decreaseQuality(quality: any, decrement: any) {
+  decreaseQuality(quality: number, decrement: number) {
     return Math.max(0, quality - decrement);
   };
 
-  increaseQuality(quality: any, increment: any) {
+  increaseQuality(quality: number, increment: number) {
     return Math.min(50, quality + increment);
   };
     
 
+  //type Item can geëxtend worden naar alle varianten van producttypes
+  //elk producttype kan dan zo ook een aparte 'updateQ' functie hebben
   updateQuality() {
-    for (let i = 0; i < this.items.length; i++) {
-      //first exception Sulfuras is a stable product
-      if (this.items[i].name !== 'Sulfuras, Hand of Ragnaros') {
-        //normal case: per update sellIn -1
-        this.items[i].sellIn = this.items[i].sellIn - 1;
-
-        //If-else statement that separates the ones that decrease from the ones that increase in quality.
-        if ( this.items[i].name === 'Aged Brie' || this.items[i].name === 'Backstage passes to a TAFKAL80ETC concert') {
-          //standard + 1 in quality
-          this.items[i].quality = this.increaseQuality(this.items[i].quality, 1);
-          //but backstage passes have two extra levels till the event has passed
-          if (this.items[i].name === 'Backstage passes to a TAFKAL80ETC concert') {
-            if (this.items[i].sellIn > 5 && this.items[i].sellIn < 11) {
-              this.items[i].quality = this.increaseQuality(this.items[i].quality, 1);
-            } else if (this.items[i].sellIn >= 0 && this.items[i].sellIn < 6) {
-              this.items[i].quality = this.increaseQuality(this.items[i].quality, 2);
-            } else if (this.items[i].sellIn < 0) {
-              this.items[i].quality = 0;
-            }
+    this.items = this.items.map((item) => {
+      switch(item.name) {
+        case 'Sulfuras, Hand of Ragnaros':
+          return item;
+        case 'Aged Brie':
+          item.sellIn = item.sellIn - this.decreaseSellInVal;
+          item.quality = this.increaseQuality(item.quality, this.increaseQVal);
+          return item;
+        case 'Backstage passes to a TAFKAL80ETC concert':
+          item.sellIn = item.sellIn - this.decreaseSellInVal;
+          if (item.sellIn <= 0) {
+            item.quality = 0;
+            return item;
           }
-        } else {
-          //Conjured cake degrade twice as fast as the rest, Quality is never negative
-          if (this.items[i].sellIn > 0) {
-            this.items[i].quality = this.items[i].name !== 'Conjured Mana Cake' ? this.decreaseQuality(this.items[i].quality, 1) : this.decreaseQuality(this.items[i].quality, 2);
-          } else {
-            this.items[i].quality = this.items[i].name !== 'Conjured Mana Cake' ? this.decreaseQuality(this.items[i].quality, 2) : this.decreaseQuality(this.items[i].quality, 4);
-          }
-        }
+          this.increaseQVal = item.sellIn <= 5 ? 3 : item.sellIn <= 10 ? 2 : 1;
+          item.quality = this.increaseQuality(item.quality, this.increaseQVal);
+          return item;
+        case 'Conjured Mana Cake':
+          item.sellIn = item.sellIn - this.decreaseSellInVal;
+          this.decreaseQVal = item.sellIn < 0 ? 4 : 2;
+          item.quality = this.decreaseQuality(item.quality, this.decreaseQVal);
+          return item;
+        default:
+          item.sellIn = item.sellIn - this.decreaseSellInVal;
+          this.decreaseQVal = item.sellIn < 0 ? 2 : 1;
+          item.quality = this.decreaseQuality(item.quality, this.decreaseQVal);
+          return item;
       }
-    }
+    });
 
     return this.items;
   }

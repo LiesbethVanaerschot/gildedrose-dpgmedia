@@ -59,7 +59,7 @@ exports[`Gilded Rose Approval Approvel: Day 1: day-1 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 2,
+    "quality": 4,
     "sellIn": 0,
   },
   Item {
@@ -109,7 +109,7 @@ exports[`Gilded Rose Approval Approvel: Day 2: day-2 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 3,
+    "quality": 7,
     "sellIn": -1,
   },
   Item {
@@ -159,7 +159,7 @@ exports[`Gilded Rose Approval Approvel: Day 3: day-3 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 4,
+    "quality": 10,
     "sellIn": -2,
   },
   Item {
@@ -209,12 +209,12 @@ exports[`Gilded Rose Approval Approvel: Day 4: day-4 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 5,
+    "quality": 13,
     "sellIn": -3,
   },
   Item {
     "name": "Elixir of the Mongoose",
-    "quality": 1,
+    "quality": 2,
     "sellIn": 0,
   },
   Item {
@@ -239,7 +239,7 @@ exports[`Gilded Rose Approval Approvel: Day 4: day-4 1`] = `
   },
   Item {
     "name": "Backstage passes to a TAFKAL80ETC concert",
-    "quality": 50,
+    "quality": 0,
     "sellIn": 0,
   },
   Item {
@@ -259,7 +259,7 @@ exports[`Gilded Rose Approval Approvel: Day 5: day-5 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 6,
+    "quality": 16,
     "sellIn": -4,
   },
   Item {
@@ -309,7 +309,7 @@ exports[`Gilded Rose Approval Approvel: Day 6: day-6 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 7,
+    "quality": 19,
     "sellIn": -5,
   },
   Item {
@@ -359,7 +359,7 @@ exports[`Gilded Rose Approval Approvel: Day 7: day-7 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 8,
+    "quality": 22,
     "sellIn": -6,
   },
   Item {
@@ -409,7 +409,7 @@ exports[`Gilded Rose Approval Approvel: Day 8: day-8 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 9,
+    "quality": 25,
     "sellIn": -7,
   },
   Item {
@@ -454,12 +454,12 @@ exports[`Gilded Rose Approval Approvel: Day 9: day-9 1`] = `
 [
   Item {
     "name": "+5 Dexterity Vest",
-    "quality": 9,
+    "quality": 10,
     "sellIn": 0,
   },
   Item {
     "name": "Aged Brie",
-    "quality": 10,
+    "quality": 28,
     "sellIn": -8,
   },
   Item {
@@ -484,7 +484,7 @@ exports[`Gilded Rose Approval Approvel: Day 9: day-9 1`] = `
   },
   Item {
     "name": "Backstage passes to a TAFKAL80ETC concert",
-    "quality": 50,
+    "quality": 0,
     "sellIn": 0,
   },
   Item {
@@ -504,12 +504,12 @@ exports[`Gilded Rose Approval Approvel: Day 10: day-10 1`] = `
 [
   Item {
     "name": "+5 Dexterity Vest",
-    "quality": 7,
+    "quality": 8,
     "sellIn": -1,
   },
   Item {
     "name": "Aged Brie",
-    "quality": 11,
+    "quality": 31,
     "sellIn": -9,
   },
   Item {
@@ -554,12 +554,12 @@ exports[`Gilded Rose Approval Approvel: Day 11: day-11 1`] = `
 [
   Item {
     "name": "+5 Dexterity Vest",
-    "quality": 5,
+    "quality": 6,
     "sellIn": -2,
   },
   Item {
     "name": "Aged Brie",
-    "quality": 12,
+    "quality": 34,
     "sellIn": -10,
   },
   Item {
@@ -604,12 +604,12 @@ exports[`Gilded Rose Approval Approvel: Day 12: day-12 1`] = `
 [
   Item {
     "name": "+5 Dexterity Vest",
-    "quality": 3,
+    "quality": 4,
     "sellIn": -3,
   },
   Item {
     "name": "Aged Brie",
-    "quality": 13,
+    "quality": 37,
     "sellIn": -11,
   },
   Item {
@@ -654,12 +654,12 @@ exports[`Gilded Rose Approval Approvel: Day 13: day-13 1`] = `
 [
   Item {
     "name": "+5 Dexterity Vest",
-    "quality": 1,
+    "quality": 2,
     "sellIn": -4,
   },
   Item {
     "name": "Aged Brie",
-    "quality": 14,
+    "quality": 40,
     "sellIn": -12,
   },
   Item {
@@ -709,7 +709,7 @@ exports[`Gilded Rose Approval Approvel: Day 14: day-14 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 15,
+    "quality": 43,
     "sellIn": -13,
   },
   Item {
@@ -729,7 +729,7 @@ exports[`Gilded Rose Approval Approvel: Day 14: day-14 1`] = `
   },
   Item {
     "name": "Backstage passes to a TAFKAL80ETC concert",
-    "quality": 50,
+    "quality": 0,
     "sellIn": 0,
   },
   Item {
@@ -759,7 +759,7 @@ exports[`Gilded Rose Approval Approvel: Day 15: day-15 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 16,
+    "quality": 46,
     "sellIn": -14,
   },
   Item {
@@ -809,7 +809,7 @@ exports[`Gilded Rose Approval Approvel: Day 16: day-16 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 17,
+    "quality": 49,
     "sellIn": -15,
   },
   Item {
@@ -859,7 +859,7 @@ exports[`Gilded Rose Approval Approvel: Day 17: day-17 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 18,
+    "quality": 50,
     "sellIn": -16,
   },
   Item {
@@ -909,7 +909,7 @@ exports[`Gilded Rose Approval Approvel: Day 18: day-18 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 19,
+    "quality": 50,
     "sellIn": -17,
   },
   Item {
@@ -959,7 +959,7 @@ exports[`Gilded Rose Approval Approvel: Day 19: day-19 1`] = `
   },
   Item {
     "name": "Aged Brie",
-    "quality": 20,
+    "quality": 50,
     "sellIn": -18,
   },
   Item {
